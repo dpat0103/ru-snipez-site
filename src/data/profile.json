@@ -1,0 +1,45 @@
+{
+  "_readme": "Your identity and contact details. Same rule as stats.json: anything left as 'placeholder' keeps the warning banner up. Fill these in, then set source to 'verified'.",
+
+  "name": { "value": "Dhruv Patel", "source": "placeholder" },
+  "role": {
+    "value": "Computer Science, Rutgers University",
+    "source": "placeholder"
+  },
+
+  "bio": {
+    "value": "I built RU SnipeZ in December 2023 after missing a section I needed by about ninety seconds. It has run every registration period since. Everything on this page comes from operating it: the polling design, the data layer that gives Rutgers index numbers meaning, and the parts that broke along the way.",
+    "source": "placeholder"
+  },
+
+  "email": { "value": "you@example.com", "source": "placeholder" },
+  "github": { "value": "https://github.com/dpat0103", "source": "placeholder" },
+  "linkedin": {
+    "value": "https://linkedin.com/in/dpat0103",
+    "source": "placeholder"
+  },
+  "resume": {
+    "value": "",
+    "source": "placeholder",
+    "note": "Optional. Drop a PDF in public/ and point here, e.g. /resume.pdf. Leave empty to hide the button."
+  },
+
+  "repos": {
+    "bot": {
+      "value": "https://github.com/dpat0103//RUSnipeZ",
+      "source": "placeholder"
+    },
+    "api": {
+      "value": "",
+      "source": "placeholder",
+      "note": "Link to the course-data API repo or docs. Leave empty and the API section hides itself."
+    }
+  },
+
+  "api": {
+    "enabled": false,
+    "note": "Set enabled to true once repos.api is filled in. Edit the copy in src/components/CourseApi.tsx to match what your API actually exposes.",
+    "fields": ["Course title", "Course code", "Section number", "Index number"],
+    "source": "placeholder"
+  }
+}

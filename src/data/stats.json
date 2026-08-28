@@ -1,0 +1,256 @@
+{
+  "_readme": "Every number the site displays lives in this file. Fields marked source:'placeholder' are invented shapes so the layout renders during development. Run build_stats.py against your real logs to overwrite them. The site shows a warning banner while any placeholder remains, so you cannot ship fabricated numbers by accident.",
+  "generatedOn": "2026-08-27",
+  "dataThrough": "Spring 2026 registration",
+  "headline": {
+    "students": {
+      "value": 500,
+      "display": "500+",
+      "label": "Students served",
+      "note": "Unique Discord accounts that have set at least one snipe",
+      "source": "verified"
+    },
+    "sections": {
+      "value": 25000,
+      "display": "25,000+",
+      "label": "Sections tracked",
+      "note": "Every New Brunswick undergraduate section in the Schedule of Classes. Confirm this against your current catalog file before publishing.",
+      "source": "placeholder"
+    },
+    "semesters": {
+      "value": 6,
+      "display": "6",
+      "label": "Semesters in production",
+      "note": "Continuously maintained since December 2023",
+      "source": "verified"
+    },
+    "notifications": {
+      "value": 12000,
+      "display": "12,000",
+      "label": "Openings caught",
+      "note": "Section openings detected and delivered. Registration happens on WebReg, so this is deliveries, not confirmed enrollments.",
+      "source": "placeholder"
+    }
+  },
+  "openDuration": {
+    "medianSeconds": 47,
+    "p90Seconds": 214,
+    "source": "placeholder",
+    "note": "Median time a section stays open before the seat is taken again"
+  },
+  "openingsByHour": {
+    "source": "placeholder",
+    "data": [
+      {
+        "hour": "00",
+        "openings": 41
+      },
+      {
+        "hour": "01",
+        "openings": 22
+      },
+      {
+        "hour": "02",
+        "openings": 14
+      },
+      {
+        "hour": "03",
+        "openings": 9
+      },
+      {
+        "hour": "04",
+        "openings": 7
+      },
+      {
+        "hour": "05",
+        "openings": 11
+      },
+      {
+        "hour": "06",
+        "openings": 26
+      },
+      {
+        "hour": "07",
+        "openings": 58
+      },
+      {
+        "hour": "08",
+        "openings": 143
+      },
+      {
+        "hour": "09",
+        "openings": 197
+      },
+      {
+        "hour": "10",
+        "openings": 221
+      },
+      {
+        "hour": "11",
+        "openings": 208
+      },
+      {
+        "hour": "12",
+        "openings": 176
+      },
+      {
+        "hour": "13",
+        "openings": 189
+      },
+      {
+        "hour": "14",
+        "openings": 203
+      },
+      {
+        "hour": "15",
+        "openings": 194
+      },
+      {
+        "hour": "16",
+        "openings": 167
+      },
+      {
+        "hour": "17",
+        "openings": 142
+      },
+      {
+        "hour": "18",
+        "openings": 118
+      },
+      {
+        "hour": "19",
+        "openings": 104
+      },
+      {
+        "hour": "20",
+        "openings": 96
+      },
+      {
+        "hour": "21",
+        "openings": 88
+      },
+      {
+        "hour": "22",
+        "openings": 71
+      },
+      {
+        "hour": "23",
+        "openings": 55
+      }
+    ]
+  },
+  "churnBySubject": {
+    "source": "placeholder",
+    "data": [
+      {
+        "subject": "Computer Science",
+        "openings": 812
+      },
+      {
+        "subject": "Mathematics",
+        "openings": 654
+      },
+      {
+        "subject": "Psychology",
+        "openings": 531
+      },
+      {
+        "subject": "Economics",
+        "openings": 448
+      },
+      {
+        "subject": "Biology",
+        "openings": 402
+      },
+      {
+        "subject": "Expository Writing",
+        "openings": 377
+      },
+      {
+        "subject": "Chemistry",
+        "openings": 314
+      },
+      {
+        "subject": "Political Science",
+        "openings": 268
+      }
+    ]
+  },
+  "cycleTimeline": {
+    "source": "placeholder",
+    "note": "Openings per day across one registration cycle",
+    "data": [
+      {
+        "day": "Day 1",
+        "openings": 96
+      },
+      {
+        "day": "Day 3",
+        "openings": 174
+      },
+      {
+        "day": "Day 5",
+        "openings": 233
+      },
+      {
+        "day": "Day 7",
+        "openings": 198
+      },
+      {
+        "day": "Day 9",
+        "openings": 142
+      },
+      {
+        "day": "Day 11",
+        "openings": 121
+      },
+      {
+        "day": "Day 13",
+        "openings": 108
+      },
+      {
+        "day": "Day 15",
+        "openings": 331
+      },
+      {
+        "day": "Day 17",
+        "openings": 487
+      },
+      {
+        "day": "Day 19",
+        "openings": 402
+      },
+      {
+        "day": "Day 21",
+        "openings": 276
+      },
+      {
+        "day": "Day 23",
+        "openings": 187
+      }
+    ]
+  },
+  "commandUsage": {
+    "source": "placeholder",
+    "data": [
+      {
+        "command": "/snipe",
+        "count": 7412
+      },
+      {
+        "command": "/check",
+        "count": 3186
+      },
+      {
+        "command": "/remove",
+        "count": 1943
+      }
+    ]
+  },
+  "neverOpened": {
+    "value": 12876,
+    "share": 48,
+    "source": "placeholder",
+    "note": "Sections never once observed open. Computed from the catalog and last-opened files."
+  }
+}
